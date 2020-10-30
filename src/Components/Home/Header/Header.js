@@ -28,7 +28,7 @@ const Header = () => {
     return (
 
 
-        <main style={{ height: '100%' }} className="row d-flex align-items-center">
+        <main style={{ height: '100%' }} className="row d-flex align-items-center mb-5">
             <div className="col-md-4 offset-md-1">
                 <h1 className="text-bolt">Hey, I am Kazal Ghosh </h1>
                 <p>I am passionate software engineer. My focus is mainly on web development. My core skill is based on JavaScript. <br /> I am now open to any job offers.</p>
