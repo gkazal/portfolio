@@ -24,11 +24,13 @@
     color: black;
     border-radius: 40px;
     background-color: #fdd009;
+    /* background-color: #258a7c; */
+
     text-align: center;
     cursor: pointer;
   }
   
   .hero-text button:hover {
-    background-color: #555;
+    background-color: #258a7c;
     color: white;
   }

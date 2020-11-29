@@ -2,10 +2,12 @@ import React from 'react';
 import 'react-slideshow-image/dist/styles.css'
 import { Slide } from 'react-slideshow-image';
 import './Header.css'
-import img from './images/profile2.png'
+import img from '../../../images/pf2__1_-removebg-preview.png'
 import { Fade } from "react-slideshow-image";
 import { useState } from 'react';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Header = () => {
     const [previousIndex, setPreviousIndex] = useState(null);
@@ -25,19 +27,23 @@ const Header = () => {
             setNextIndex(next);
         }
     };
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+
     return (
 
-
         <main style={{ height: '100%' }} className="row d-flex align-items-center mb-5">
-            <div className="col-md-4 offset-md-1">
-                <h1 className="text-bolt">Hey, I am Kazal Ghosh </h1>
-                <p>I am passionate software engineer. My focus is mainly on web development. My core skill is based on JavaScript. <br /> I am now open to any job offers.</p>
+            <div data-Aos="zoom-in-right" className=" col-md-4 offset-md-1 mt-4">
+                <h1 className="text-bolt">Hey, I am <span style={{ color: '#258a7c' }}>Kazal Ghosh</span></h1>
+                <h4>I am a Web Developer </h4>
                 <a href="https://drive.google.com/drive/u/0/folders/1v_W0_D9T8de3kiG_8r3dOHnQCLJ2B1Ft" target="_blank">
-                    <button type="button" class="btn btn-Warning downCV">Download Resume</button>
+                    <a href="/project" style={{ backgroundColor: '#7ee9db' }} class="btn">Download Resume</a>
                 </a>
             </div>
-            <div className="col-md-6">
-                <img src={img} className="img-fluid" alt="" />
+            <div data-Aos="zoom-in-down" className=" col-md-6 mt-5">
+                <img style={{ height: '500px' }} src={img} className="img-fluid" alt="" />
             </div>
 
         </main>

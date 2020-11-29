@@ -6,7 +6,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light  " style={{backgroundColor:'rgb(157, 198, 245)'}}>
+        <nav className="navbar navbar-expand-lg navbar-light  fixed-top" style={{backgroundColor: '#7ee9db'}}>
 
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@ const Navbar = () => {
             
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item ">
-                    <a className="nav-link mr-3" href="/home">Home <span className="sr-only">(current)</span></a>
+                    <a className="nav-link mr-3" href="/home">Home </a>
                 </li>
 
                 <li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     <a className="nav-link mr-3" href="/cv">CV</a>
                 </li>
                 <li>
-                    <a className="nav-link mr-3" href="/home">Contact Me</a>
+                    <a className="nav-link mr-3" href="#contact">Contact Me</a>
                 </li>
              
 
