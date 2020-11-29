@@ -13,7 +13,7 @@ const Resume = () => {
                     <div class="card-body card-body-cascade text-center">
                         <h1 class="card-title"><strong>Kazal Ghosh</strong></h1>
                         <h4 class="font-weight-bold indigo-text py-2">Web developer</h4>
-                        <a href="https://drive.google.com/file/d/1ZqaM_GGQH0FKi5pQoHSsGqNZxMCpu_2Q/view?usp=sharing" target="_blank">
+                        <a href="https://drive.google.com/drive/u/0/folders/1sZ4ju41QrMrwSrBe624FeC0Mj-aUMLys" target="_blank">
                             <button type="button" class="btn " style={{ backgroundColor: '#7ee9db' }}>Download Resume</button>
                         </a>
 
