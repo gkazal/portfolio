@@ -38,8 +38,8 @@ const Header = () => {
             <div data-Aos="zoom-in-right" className=" col-md-4 offset-md-1 mt-4">
                 <h1 className="text-bolt">Hey, I am <span style={{ color: '#258a7c' }}>Kazal Ghosh</span></h1>
                 <h4>I am a Web Developer </h4>
-                <a href="https://drive.google.com/drive/u/0/folders/1v_W0_D9T8de3kiG_8r3dOHnQCLJ2B1Ft" target="_blank">
-                    <a href="/project" style={{ backgroundColor: '#7ee9db' }} class="btn">Download Resume</a>
+                <a href="https://drive.google.com/drive/u/0/folders/1sZ4ju41QrMrwSrBe624FeC0Mj-aUMLys" target="_blank">
+                    <a style={{ backgroundColor: '#7ee9db', color:'black' }} class="btn">Download Resume</a>
                 </a>
             </div>
             <div data-Aos="zoom-in-down" className=" col-md-6 mt-5">
