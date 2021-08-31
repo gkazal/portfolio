@@ -10,8 +10,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 const Header = () => {
-    const [previousIndex, setPreviousIndex] = useState(null);
-    const [nextIndex, setNextIndex] = useState(null);
+    // const [previousIndex, setPreviousIndex] = useState(null);
+    // const [nextIndex, setNextIndex] = useState(null);
 
     const style = {
         textAlign: "center",
@@ -19,14 +19,14 @@ const Header = () => {
         fontSize: "30px",
         height: "100%",
     };
-    const properties = {
-        autoplay: true,
-        indicators: true,
-        onChange: (previous, next) => {
-            setPreviousIndex(previous);
-            setNextIndex(next);
-        }
-    };
+    // const properties = {
+    //     autoplay: true,
+    //     indicators: true,
+    //     onChange: (previous, next) => {
+    //         setPreviousIndex(previous);
+    //         setNextIndex(next);
+    //     }
+    // };
 
     useEffect(() => {
         Aos.init({ duration: 2000 })
